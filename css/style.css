@@ -1,0 +1,106 @@
+/* fonts  */
+
+@import url('https://fonts.googleapis.com/css2?family=Gulzar&family=Oswald:wght@400;600&family=Poppins:wght@500&display=swap');
+
+
+/* common css  */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Oswald', sans-serif;
+
+}
+
+
+.container {
+    margin: 50px 140px 130px 140px;
+}
+
+
+/* header section css style */
+
+.great-show {
+    background-color: #161616;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.great-show-info {
+    width: 531px;
+    height: 424px;
+    margin: 111px 24px 1px 106px;
+}
+
+.great-show-info h1 {
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 80px;
+    color: #FFFFFF;
+}
+
+.great-show-info p {
+    margin-top: 20px;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+
+}
+
+.btn {
+    margin-top: 30px;
+    background-color: #DD0000;
+    border-radius: 9px;
+    border: none;
+    padding: 15px 16px;
+
+}
+
+.btn a {
+    text-decoration: none;
+    font-size: 28px;
+    color: #FFFFFF;
+    font-weight: 400;
+}
+
+.fa-solid {
+    padding-left: 20px;
+}
+
+.great-show-pic {
+    margin: 83px 79px 0px 24px;
+    width: 581px;
+    height: 613px;
+    
+}
+
+.great-show-pic img {
+    width: 120%;
+}
+
+
+/* sports full news */
+
+.dash-board{
+    width: 312px;
+    height: 312px;
+    background-color: #161616;
+    border-radius: 10px;
+}
+
+.upcoming{
+    padding: 30px;
+}
+.group{
+    padding-left:30px ;
+    padding-right: 30px;
+    padding-bottom: 30px;
+}
+.blog{
+    padding-left:30px ;
+    padding-right: 30px;
+    padding-bottom: 30px;
+}
