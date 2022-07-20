@@ -100,6 +100,8 @@
 
 /* sports full news */
 
+
+
 .dash-board {
     width: 250px;
     height: 230px;
@@ -111,10 +113,15 @@
     margin-top: 30px;
     margin-left: 15px;
     width: 220px;
-    height: 60px;
+    height: 50px;
+    background-color: #FFFFFF;
+    border: 1px solid #161616;
+    margin-bottom: 16px;
+    border-radius: 7px;
+
 }
 
-.upcoming p {
+.upcoming a {
     font-weight: 500;
     font-size: 20px;
     line-height: 30px;
@@ -123,8 +130,10 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 5px;
-    border-radius: 5px;
+    padding: 7px;
+    border-radius: 7px;
+    text-decoration: none;
+
 
 }
 
@@ -138,6 +147,9 @@
     height: 60px;
     margin-left: 15px;
 
+    border: 1px solid #161616;
+    margin-bottom: 5px;
+    border-radius: 7px;
 
 }
 
@@ -160,6 +172,7 @@
     width: 220px;
     height: 60px;
     margin-left: 15px;
+    border: 1px solid #161616;
 
 }
 
@@ -177,6 +190,45 @@
     border-radius: 7px;
 }
 
+.live-chart {
+    width: 230px;
+    height: 200px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 10px;
+    grid-column-gap: 10px;
+    margin-bottom: 150px;
+}
+
+.live-chart-item {
+    border: 1px solid #161616;
+    border-radius: 7px;
+}
+
+.country-pic {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    padding: 0 4px;
+}
+
+.country-vs {
+    padding: 0 10px;
+}
+
+.country-pic h1 {
+    margin-left: 10px;
+}
+
+.country {
+    margin-left: 15px;
+}
+
+.country-info {
+    margin-left: 28px;
+    margin-bottom: 10px;
+}
 
 .dash-and-temlate-info {
     display: grid;
@@ -330,6 +382,9 @@ hr {
 
 
 
+    
+   
+
 @media only screen and (min-width: 768px) and (max-width:991px) {
     .great-show {
         width: 80%;
@@ -390,7 +445,7 @@ hr {
 
     .dash-board {
         display: flex;
-        width: 90%;
+        width: 80%;
         height: 120px;
         padding: 10px;
         background-color: #FFFFFF;
@@ -398,6 +453,7 @@ hr {
 
     }
 
+    
     .upcoming {
         border-radius: 5px;
         padding: 0px;
@@ -405,17 +461,25 @@ hr {
         justify-content: center;
         align-items: center;
         border: 1px solid #161616;
+        height: 60px;
     }
 
     .group {
 
         margin-top: 30px;
+
+        height: 60px;
+
         border: 1px solid #161616;
+
         border-radius: 5px;
 
         display: flex;
+
         justify-content: center;
+
         align-items: center;
+
     }
 
     .blog {
@@ -431,6 +495,16 @@ hr {
 
     }
 
+
+    .live-chart {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-column-gap: 30px;
+        grid-row-gap: 30px;
+         margin-left: 50px;
+        margin-top: 30px;
+        margin-bottom: 350px;
+    }
 
     .template-info {
         margin-top: 15px;
@@ -488,7 +562,7 @@ hr {
 
 
 
-
+/* responsive mobile */
 
 @media only screen and (min-width:320px) and (max-width: 767px) {
 
@@ -563,7 +637,7 @@ hr {
 
         display: grid;
         grid-template-columns: revert;
-  
+
 
     }
 
@@ -573,18 +647,26 @@ hr {
         margin-top: 50px;
         margin-left: 30px;
     }
+    .live-chart{
+        display: grid;
+        grid-template-columns: revert;
+        margin-bottom: 800px;
+        margin-top: 30px;
+    }
+  
 
     /* footer  */
 
-    footer{
+    footer {
         height: 100%;
     }
-    .goal-details{
+
+    .goal-details {
         display: grid;
         grid-template-columns: revert;
     }
 
-    .goal-details li{
+    .goal-details li {
         padding: 10px;
         margin: 0px;
         align-items: center;
